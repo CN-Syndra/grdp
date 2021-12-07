@@ -134,8 +134,8 @@ func (g *Client) LoginVNC() error {
 }
 
 func main() {
-	g := NewClient("192.168.18.107:3389", glog.DEBUG)
-	err := g.Login("", "wren", "wren")
+	g := NewClient("192.168.34.128:3389", glog.NONE)
+	err := g.Login("", "brute", "11111@2")
 	//g := NewClient("192.168.18.100:5902", glog.DEBUG)
 	//err := g.LoginVNC()
 	if err != nil {
