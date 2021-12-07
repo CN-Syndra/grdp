@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/tomatome/grdp/core"
+	"github.com/CN-Syndra/grdp/core"
 )
 
 func TestWriteUInt16LE(t *testing.T) {
